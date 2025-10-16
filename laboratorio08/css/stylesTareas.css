@@ -1,0 +1,19 @@
+li:nth-child(odd) {
+    color: blue;
+}
+li:nth-child(even) {
+    color: grey;
+}
+li::before {
+    content: "==>"
+}
+li:active {
+    background: rgb(211, 211, 211);
+}
+li:hover {
+    cursor: pointer
+}
+
+.hecha::after {
+    content: "\\/";
+}
